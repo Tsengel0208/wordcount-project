@@ -1,0 +1,49 @@
+acquisition:
+  groundstation: 
+    code: IRIMHE
+extent:
+  center_dt: '2015-11-24T00:00:00.000000'
+  coord:
+    ll: 
+      lat: 41.5810509
+      lon: 87.7356651
+    lr: 
+      lat: 41.5810509
+      lon: 119.9475111
+    ul: 
+      lat: 52.1403669
+      lon: 87.7356651
+    ur: 
+      lat: 52.1403669
+      lon: 119.9475111
+  from_dt: '2015-11-24T00:00:00.000000'
+  to_dt: '2015-11-24T00:00:01.000000'
+format: 
+  name: GTiff
+grid_spatial:
+  projection:
+    geo_ref_points:
+      ll: 
+        x: 87.7356651
+        y: 41.5810509
+      lr: 
+        x: 119.9475111
+        y: 41.5810509
+      ul: 
+        x: 87.7356651
+        y: 52.1403669
+      ur: 
+        x: 119.9475111
+        y: 52.1403669
+    spatial_reference: GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]]
+id: 7a748ea3-82af-42c7-b178-ddc57852f4a1
+image:
+  bands:
+    dzud_risk: 
+      layer: 1
+      path: /nfs/data/ws/dzud_risk/Dzud_risk_20151124.tif
+instrument: 
+  name: IRIMHE
+platform: 
+  code: IRIMHE
+product_type: dzud_risk

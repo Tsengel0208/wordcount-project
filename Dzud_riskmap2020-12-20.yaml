@@ -1,0 +1,49 @@
+acquisition:
+  groundstation: 
+    code: IRIMHE
+extent:
+  center_dt: '2020-12-20T00:00:00.000000'
+  coord:
+    ll: 
+      lat: 41.5756328
+      lon: 87.7283497
+    lr: 
+      lat: 41.5756328
+      lon: 119.9283497
+    ul: 
+      lat: 52.1756328
+      lon: 87.7283497
+    ur: 
+      lat: 52.1756328
+      lon: 119.9283497
+  from_dt: '2020-12-20T00:00:00.000000'
+  to_dt: '2020-12-21T00:00:00.000000'
+format: 
+  name: GTiff
+grid_spatial:
+  projection:
+    geo_ref_points:
+      ll: 
+        x: 87.7283497
+        y: 41.5756328
+      lr: 
+        x: 119.9283497
+        y: 41.5756328
+      ul: 
+        x: 87.7283497
+        y: 52.1756328
+      ur: 
+        x: 119.9283497
+        y: 52.1756328
+    spatial_reference: GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]]
+id: 7a7481a3-82af-4bc7-b178-ddc57452f4a1
+image:
+  bands:
+    dzud_risk: 
+      layer: 1
+      path: /nfs/data/ws/dzud_risk/Dzud_riskmap2020-12-20.tif
+instrument: 
+  name: IRIMHE
+platform: 
+  code: IRIMHE
+product_type: dzud_risk
